@@ -1,0 +1,30 @@
+def hotel_cost(nights):
+"""Solid function which checks the hotelcost"""
+    cost = 140 * nights
+    return cost #could get more details like tip
+
+def plane_ride_cost(city):  # could add a code who check, if there a a input and if the input is non- numeric
+    """calculate the plane rinde cost with the argument city"""
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475      #could be modified in same way like the rental_car for last minute offers
+
+
+def rental_car_cost(days): #very interesting is the -= i tryed =- dont work
+    """calculate the cost for a rental car with spezialoffers"""
+    ax = 40 * days
+    if days >= 7:
+        ax -= 50
+    elif days >= 3:
+        ax -= 20
+    return ax
+        
+def trip_cost(city,days):
+    return rental_car_cost(days) + plane_ride_cost(city) + hotel_cost(days)   #add a variable here
+
+"""There is no print. it will be the job for the next day to fix it"""
