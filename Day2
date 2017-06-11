@@ -27,3 +27,32 @@ def trip_cost(city,days,spending_money):
     return rental_car_cost(days) + plane_ride_cost(city) + hotel_cost(days) + spending_money
     
 print trip_cost("Los Angeles",5,600)
+
+"""-------------------------------------------------------------------------------------"""
+my_animals = ["dog", "cat", Bird"] 
+
+my_animals[2] = "hyena" #replace items in a list
+my_animals[3] = "Snake" #add item to list
+
+bag = [] # empy list
+bag.append("sunglasses") # command for add something to list. reminds me at "appendix"
+bag.append("fire")
+ag.append("Tabaco")
+bag.append("Papers")
+bag.append("Other shit")
+list_length = len(bag) # Set list_legth to the length of bag
+print "I have %d items add in my bag(-list^^)." % (list_length) # Number of things
+print bag                                                       #only to show the things
+
+#-------------------------------------------------------------------------
+bag = ["Tabaco", "Papers", "Other Shit", "Laptop", "Mobil", "Key"] #new random list for training
+# Slicing lists
+first  = suitcase[0:2]  # The first and second items (index zero and one) 
+middle = suitcase[2:4]  # Third and fourth items (index two and three)
+last   = suitcase[4:6]  # The last two items (index four and five)
+#--------------------------------------------------------------------------
+members = ["simon", "adam", "daysi", "mick", "odie"]
+member_index = memebers.index("mick")   # Use index() to find "mick"
+print member_index
+animals.insert(duck_index, "cobra")
+print members #more practice with lists & a useful command "xy.index(exampe)
