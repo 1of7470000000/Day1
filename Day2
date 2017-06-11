@@ -47,12 +47,12 @@ print bag                                                       #only to show th
 #-------------------------------------------------------------------------
 bag = ["Tabaco", "Papers", "Other Shit", "Laptop", "Mobil", "Key"] #new random list for training
 # Slicing lists
-first  = suitcase[0:2]  # The first and second items (index zero and one) 
-middle = suitcase[2:4]  # Third and fourth items (index two and three)
-last   = suitcase[4:6]  # The last two items (index four and five)
+first  = bag[0:2]  # The first and second items (index zero and one) 
+middle = bag[2:4]  # Third and fourth items (index two and three)
+last   = bag[4:6]  # The last two items (index four and five)
 #--------------------------------------------------------------------------
 members = ["simon", "adam", "daysi", "mick", "odie"]
 member_index = memebers.index("mick")   # Use index() to find "mick"
 print member_index
-animals.insert(duck_index, "cobra")
-print members #more practice with lists & a useful command "xy.index(exampe)
+members.insert(member_index, "jony")
+print members # more practice with lists & a useful command "xy.index(exampe)
