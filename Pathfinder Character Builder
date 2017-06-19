@@ -1,0 +1,57 @@
+  GNU nano 2.5.3                                 File: char                                                                         
+
+#usr/bin/env/python
+
+def heropts(n):
+    """Set up given Buildpionts."""
+    bp = raw_input("Insert Buildpionts")
+    return bp
+
+def calc(value):
+    v = raw_input("Insert Value")
+    if st == 18:
+        aktuelle_heropoints = heropts(n) - 17
+        return "%d Punkte übrig" % aktuelle_heropoints
+    elif st == 17:
+        aktuelle_heropoints = heropoints() - 15
+        return "%d Punkte übrig" % aktuelle_heropoints
+    elif st == 16:
+        aktuelle_heropoints = heropoints() - 12
+        return "%d Punkte übrig" % aktuelle_heropoints
+    elif st == 15:
+        aktuelle_heropoints = heropoints() - 10
+        return "%d Punkte übrig" % aktuelle_heropoints
+        elif st == 14:
+        aktuelle_heropoints = heropoints() - 10
+        return "%d Punkte übrig" % aktuelle_heropoints
+    elif st == 13:
+        aktuelle_heropoints = heropoints() - 10
+        return "%d Punkte übrig" % aktuelle_heropoints
+        elif st == 12:
+        aktuelle_heropoints = heropoints() - 10
+        return "%d Punkte übrig" % aktuelle_heropoints
+    elif st == 11
+        aktuelle_heropoints = heropoints() - 10
+        return "%d Punkte übrig" % (aktuelle_heropoints)
+        heropoints() -17
+    elif st == 10:
+        aktuelle_heropoints = heropoints() - 10
+        return "%d Punkte übrig" % aktuelle_heropoints
+    elif st == 9:
+        aktuelle_heropoints = heropoints() - 10
+              return "%d Punkte übrig" % aktuelle_heropoints
+        elif st == 8:
+              aktuelle_heropoints = heropoints() - 10
+              return "%d Punkte übrig" % aktuelle_heropoints
+        elif st == 7:
+              aktuelle_heropoints = heropoints() - 10
+              return "%d Punkte übrig" % aktuelle_heropoints
+        else:
+            return "try again"
+            calc(value)
+
+print "Lets start, insert 'ur Value in Str"
+clc()
+print "Now set Agility"
+clc()
+print "Set Wisdom"
