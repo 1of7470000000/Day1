@@ -1,0 +1,38 @@
+#user/bin/python
+print "------------------------------------------------------------"
+import random
+from datetime import datetime
+x = datetime.now()
+print x
+list1 = ["ppl", "ppl2", "ppl3", "ppl4", "and so on..."]
+list2 = ["Enviroment1", "Enviroment2", "Enviroment3", "and so on"]
+list3 = ["Quote1", "Quote2", "Quote3", "and so on"]
+list4 = ["Tel1", "Tel2", "Tel3", "and so on"]
+print "****KK, lets get start***"
+print "what u wanna do?"
+def XenTy():
+    main = raw_input("A=Data/Q=quote of the day")
+    if main == "A":
+        print "select topic"
+        data = raw_input("A=ppl/B=enviroment/C=teln")
+        if data == "A":
+            print (list1)
+            XenTy()
+        elif data == "B":
+            print (list2)
+            XenTy()
+        elif data == "C":
+            print (list4)
+            XenTy()
+        else:
+            print "try again"
+            XenTy()
+
+    elif main == "Q":
+        quote = random.choice(list3)
+        print quote
+        XenTy()
+    elif main == "C":
+        print (list4)
+XenTy()
+# EOF
